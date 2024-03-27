@@ -8,4 +8,4 @@ def get_cats_info(path: str) -> list[dict[str, str]]:
     return temp
 
 
-pprint(get_cats_info("./qwe.txt"))
+pprint(get_cats_info("qwe.txt"))
